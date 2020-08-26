@@ -2,7 +2,7 @@ def workspace;
 node{
     stage('Checkout')
     {
-        /checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '995dfb6a-38fe-4190-b056-1e17bf2709d3', url: 'https://github.com/BendadiVineesha/jenkinsmvn']]])
+        checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '995dfb6a-38fe-4190-b056-1e17bf2709d3', url: 'https://github.com/BendadiVineesha/jenkinsmvn.git']]])
     workspace=pwd()
         
     }
