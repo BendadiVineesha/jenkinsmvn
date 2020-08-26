@@ -21,3 +21,4 @@ node{
     stage('Email Notification'){
         mail bcc: '', body: 'welcome to gmail alerts', cc: '', from: '', replyTo: '', subject: 'jenkins', to: 'vineeshabendadi2@gmail.com'
     }
+}
